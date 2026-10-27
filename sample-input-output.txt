@@ -1,0 +1,27 @@
+SAMPLE INPUT
+
+Number of files/directories: 5
+
+Node 0: Root
+Node 1: Documents
+Node 2: Photos
+Node 3: Notes
+Node 4: Music
+
+Adjacency matrix:
+0 1 1 0 0
+1 0 0 1 0
+1 0 0 0 1
+0 1 0 0 0
+0 0 1 0 0
+
+Starting node: 0
+Target file node: 3
+
+SAMPLE OUTPUT
+
+BFS Traversal: Root Documents Photos Notes Music
+File found using BFS.
+
+DFS Traversal: Root Documents Notes Photos Music
+File found using DFS.
